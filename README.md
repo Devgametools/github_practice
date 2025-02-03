@@ -4,6 +4,8 @@ GIT - GITHUB
 Basic Commands
 -----------
 
+# Local Repositories
+
 ### git --help
 Shows the help menu.
 ```bash
@@ -21,12 +23,6 @@ Configures git.
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
-```
-
-### git remote
-Manages remote repositories.
-```bash
-git remote add origin <url>
 ```
 
 ### git status
@@ -59,27 +55,6 @@ Shows the commit history.
 git log
 ```
 
-### git clone
-Clones a repository.
-```bash
-git clone <url>
-```
-
-### git push
-Pushes the commits to the remote repository.
-
-### git pull
-Pulls the commits from the remote repository.
-
-
-### git log
-Shows the commit history.
-```bash
-git log
-```
-
-### git diff
-Shows the differences between the current state and the last commit.
 
 ADVANCED COMMANDS
 -----------
@@ -144,4 +119,39 @@ git tag -d <tag-name> # Deletes a tag
 
 ### git reflog
 Shows the commit history.
+
+-----------
+
+# Remote Repositories
+
+### git remote
+Manages remote repositories.
+```bash
+git remote add origin <url>
+```
+
+### git clone
+Clones a repository.
+```bash
+git clone <url>
+```
+
+### git push
+Pushes the commits to the remote repository.
+
+### git pull
+Pulls the commits from the remote repository.
+
+
+### git log
+Shows the commit history.
+```bash
+git log
+```
+
+### git diff
+Shows the differences between the current state and the last commit.
+
+
+
 
