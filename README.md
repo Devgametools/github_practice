@@ -5,9 +5,16 @@ Basic Commands
 -----------
 
 ### git --help
+Shows the help menu.
+```bash
+git --help
+```
 
 ### git init
 Initializes a git repository.
+```bash
+git init
+```
 
 ### git config
 Configures git.
