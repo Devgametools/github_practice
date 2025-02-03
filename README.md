@@ -67,6 +67,9 @@ Pulls the commits from the remote repository.
 
 # git log
 Shows the commit history.
+```bash
+git log
+```
 
 # git diff
 Shows the differences between the current state and the last commit.
@@ -79,7 +82,7 @@ Creates a new branch.
 ```bash
 git branch # Shows the current branch
 git branch <branch-name> # Creates a new branch
-git checkout <branch-name> # Switches to a branch
+git branch -D <branch-name> # Deletes a branch
 ```
 
 # git checkout or git switch
@@ -91,12 +94,26 @@ git switch <branch>
 
 # git merge
 Merges a branch into the current branch.
+```bash
+git merge <branch>
+```
 
 # git rebase
 Rebases a branch onto another branch.
 
+# git revert
+Reverts a commit.
+```bash
+git revert <commit Identifier>
+```
+
 # git reset
 Resets the current branch to a previous commit.
+```bash
+git reset --soft <commit Identifier> # Soft reset
+git reset --mixed <commit Identifier> # Mixed reset
+git reset --hard <commit Identifier> # Hard reset
+```
 
 # git stash
 Stashes the current changes.
