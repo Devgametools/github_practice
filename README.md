@@ -16,6 +16,12 @@ git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 ```
 
+# git remote
+Manages remote repositories.
+```bash
+git remote add origin <url>
+```
+
 # git status
 Shows the status of the repository.
 ```bash
@@ -28,19 +34,29 @@ Adds a file to the staging area.
 git add <file>
 ```
 
-# git rem
+# git rm
 Removes a file from the staging area.
 ```bash
-git rm <file>
+git rm --cached <file>
+```
+
+# git commit
+Commits the staged changes.
+```bash
+git commit -m "Commit message"
+```
+
+# git log
+Shows the commit history.
+```bash
+git log
 ```
 
 # git clone
 Clones a repository.
-
-
-
-# git commit
-Commits the staged changes.
+```bash
+git clone <url>
+```
 
 # git push
 Pushes the commits to the remote repository.
@@ -60,6 +76,11 @@ Shows the differences between the current state and the last commit.
 
 # git branch
 Creates a new branch.
+```bash
+git branch # Shows the current branch
+git branch <branch-name> # Creates a new branch
+git checkout <branch-name> # Switches to a branch
+```
 
 # git checkout
 Switches to a branch.
