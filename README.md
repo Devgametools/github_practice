@@ -1,10 +1,11 @@
 GIT - GITHUB
 ===========
 
-Basic Commands
------------
+# BASIC COMMANDS
 
-# Local Repositories
+
+Local Repositories
+-----------
 
 ### git --help
 Shows the help menu.
@@ -56,8 +57,7 @@ git log
 ```
 
 
-ADVANCED COMMANDS
------------
+# ADVANCED COMMANDS
 
 ### git branch
 Creates a new branch.
@@ -120,9 +120,9 @@ git tag -d <tag-name> # Deletes a tag
 ### git reflog
 Shows the commit history.
 
------------
 
-# Remote Repositories
+Remote Repositories
+-----------
 
 ### git remote
 Manages remote repositories.
