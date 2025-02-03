@@ -89,7 +89,7 @@ git merge <branch>
 ```
 
 #### git rebase
-Rebases a branch onto another branch.
+Rebases a branch into another branch.
 
 #### git revert
 Reverts a commit.
