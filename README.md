@@ -92,6 +92,14 @@ git checkout <branch>
 git switch <branch>
 ```
 
+# git checkout (Certain commit)
+Switches to a certain commit to make changes for testing.
+```bash
+git checkout <commit Identifier>
+git checkout -b <branch> <commit Identifier> # Creates a new branch
+git checkout main # Switches to the main branch
+```
+
 # git merge
 Merges a branch into the current branch.
 ```bash
@@ -120,6 +128,12 @@ Stashes the current changes.
 
 # git tag
 Tags a commit.
+```bash
+git tag -a <tag-name> -m "Tag message" # Creates a tag
+git tag <tag-name> # Creates a tag
+git show <tag-name> # Shows the commit associated with a tag
+git tag -d <tag-name> # Deletes a tag
+```
 
 # git reflog
 Shows the commit history.
