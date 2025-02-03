@@ -61,8 +61,12 @@ Shows the differences between the current state and the last commit.
 # git branch
 Creates a new branch.
 
-# git checkout
+# git checkout or git switch
 Switches to a branch.
+```bash
+git checkout <branch>
+git switch <branch>
+```
 
 # git merge
 Merges a branch into the current branch.
