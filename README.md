@@ -1,8 +1,8 @@
 # GIT - GITHUB
-===============
+===========
 
 ## Basic Commands
------------------
+-----------
 
 # git --help
 
@@ -75,7 +75,7 @@ git log
 Shows the differences between the current state and the last commit.
 
 ## ADVANCED COMMANDS
--------------------
+-----------
 
 # git branch
 Creates a new branch.
