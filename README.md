@@ -1,83 +1,83 @@
-# GIT - GITHUB
+GIT - GITHUB
 ===========
 
-## Basic Commands
+Basic Commands
 -----------
 
-# git --help
+### git --help
 
-# git init
+### git init
 Initializes a git repository.
 
-# git config
+### git config
 Configures git.
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 ```
 
-# git remote
+### git remote
 Manages remote repositories.
 ```bash
 git remote add origin <url>
 ```
 
-# git status
+### git status
 Shows the status of the repository.
 ```bash
 git status
 ```
 
-# git add
+### git add
 Adds a file to the staging area.
 ```bash
 git add <file>
 ```
 
-# git rm
+### git rm
 Removes a file from the staging area.
 ```bash
 git rm --cached <file>
 ```
 
-# git commit
+### git commit
 Commits the staged changes.
 ```bash
 git commit -m "Commit message"
 ```
 
-# git log
+### git log
 Shows the commit history.
 ```bash
 git log
 ```
 
-# git clone
+### git clone
 Clones a repository.
 ```bash
 git clone <url>
 ```
 
-# git push
+### git push
 Pushes the commits to the remote repository.
 
-# git pull
+### git pull
 Pulls the commits from the remote repository.
 
 
-# git log
+### git log
 Shows the commit history.
 ```bash
 git log
 ```
 
-# git diff
+### git diff
 Shows the differences between the current state and the last commit.
 
-## ADVANCED COMMANDS
+ADVANCED COMMANDS
 -----------
 
-# git branch
+### git branch
 Creates a new branch.
 ```bash
 git branch # Shows the current branch
@@ -85,14 +85,14 @@ git branch <branch-name> # Creates a new branch
 git branch -D <branch-name> # Deletes a branch
 ```
 
-# git checkout or git switch
+### git checkout or git switch
 Switches to a branch.
 ```bash
 git checkout <branch>
 git switch <branch>
 ```
 
-# git checkout (Certain commit)
+### git checkout (Certain commit)
 Switches to a certain commit to make changes for testing.
 ```bash
 git checkout <commit Identifier>
@@ -100,22 +100,22 @@ git checkout -b <branch> <commit Identifier> # Creates a new branch
 git checkout main # Switches to the main branch
 ```
 
-# git merge
+### git merge
 Merges a branch into the current branch.
 ```bash
 git merge <branch>
 ```
 
-# git rebase
+### git rebase
 Rebases a branch onto another branch.
 
-# git revert
+### git revert
 Reverts a commit.
 ```bash
 git revert <commit Identifier>
 ```
 
-# git reset
+### git reset
 Resets the current branch to a previous commit.
 ```bash
 git reset --soft <commit Identifier> # Soft reset
@@ -123,10 +123,10 @@ git reset --mixed <commit Identifier> # Mixed reset
 git reset --hard <commit Identifier> # Hard reset
 ```
 
-# git stash
+### git stash
 Stashes the current changes.
 
-# git tag
+### git tag
 Tags a commit.
 ```bash
 git tag -a <tag-name> -m "Tag message" # Creates a tag
@@ -135,6 +135,6 @@ git show <tag-name> # Shows the commit associated with a tag
 git tag -d <tag-name> # Deletes a tag
 ```
 
-# git reflog
+### git reflog
 Shows the commit history.
 
