@@ -124,6 +124,15 @@ Shows the commit history.
 Remote Repositories
 -----------
 
+#### create ssh key
+```bash
+ssh-keygen -t rsa -b 4096 -C "your@email.com" # Creates an rsa key
+ssh-keygen -t ed25519 -C "your@email.com"  # Creates an ed25519 key
+eval "$(ssh-agent -s)" # Evaluates the ssh key
+ssh-add ~/.ssh/id_rsa # Adds the key to the ssh-agent
+ssh -T git@github.com # Tests the connection
+```
+
 #### git remote
 Manages remote repositories.
 ```bash
