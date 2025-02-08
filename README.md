@@ -54,6 +54,7 @@ git commit -m "Commit message"
 Shows the commit history.
 ```bash
 git log
+git log main..origin/main # Shows the commit history between the main branch and the origin/main branch
 ```
 
 
@@ -86,6 +87,7 @@ git checkout main # Switches to the main branch
 Merges a branch into the current branch.
 ```bash
 git merge <branch>
+git merge origin/main # Merges the origin/main branch into the current branch
 ```
 
 #### git rebase
@@ -147,9 +149,40 @@ git clone <url>
 
 #### git push
 Pushes the commits to the remote repository.
+```bash
+git push origin <branch>
+```
 
 #### git pull
 Pulls the commits from the remote repository.
+```bash
+git pull origin <branch>
+```
+
+##### git fetch
+Fetches the commits from the remote repository.
+```bash
+git fetch origin <branch>
+```
+
+
+
+
+Working with Branches
+-----------
+
+### Basic Commands
+
+#### git branch
+Creates a new branch.
+```bash
+git branch # Shows the current branch
+git branch <branch-name> # Creates a new branch
+git branch -D <branch-name> # Deletes a branch
+```
+
+#### git checkout or git switch
+Switches to a branch.
 
 
 #### git log
