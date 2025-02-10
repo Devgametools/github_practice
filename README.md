@@ -12,7 +12,7 @@ Shows the help menu.
 git --help
 ```
 
-#### -git init
+- #### git init
 
 Initializes a git repository.
 
@@ -20,7 +20,7 @@ Initializes a git repository.
 git init
 ```
 
-#### git config
+- #### git config
 
 Configures git.
 
@@ -29,7 +29,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 ```
 
-#### git status
+- #### git status
 
 Shows the status of the repository.
 
@@ -37,7 +37,7 @@ Shows the status of the repository.
 git status
 ```
 
-#### git add
+- #### git add
 
 Adds a file to the staging area.
 
@@ -45,7 +45,7 @@ Adds a file to the staging area.
 git add <file>
 ```
 
-#### git rm
+- #### git rm
 
 Removes a file from the staging area.
 
@@ -53,15 +53,16 @@ Removes a file from the staging area.
 git rm --cached <file>
 ```
 
-#### git commit
+- #### git commit
 
 Commits the staged changes.
 
 ```bash
 git commit -m "Commit message"
+git commit -am "Commit message" # Add and commit changes
 ```
 
-#### git log
+- #### git log
 
 Shows the commit history.
 
@@ -72,7 +73,7 @@ git log main..origin/main # Shows the commit history between the main branch and
 
 ### Advanced Commands
 
-#### git branch
+- #### git branch
 
 Creates a new branch.
 
@@ -82,7 +83,7 @@ git branch <branch-name> # Creates a new branch
 git branch -D <branch-name> # Deletes a branch
 ```
 
-#### git checkout or git switch
+- #### git checkout or git switch
 
 Switches to a branch.
 
@@ -91,7 +92,7 @@ git checkout <branch>
 git switch <branch>
 ```
 
-#### git checkout (Certain commit)
+- #### git checkout (Certain commit)
 
 Switches to a certain commit to make changes for testing.
 
@@ -101,7 +102,7 @@ git checkout -b <branch> <commit Identifier> # Creates a new branch
 git checkout main # Switches to the main branch
 ```
 
-#### git merge
+- #### git merge
 
 Merges a branch into the current branch.
 
@@ -110,11 +111,11 @@ git merge <branch>
 git merge origin/main # Merges the origin/main branch into the current branch
 ```
 
-#### git rebase
+- #### git rebase
 
 Rebases a branch into another branch.
 
-#### git revert
+- #### git revert
 
 Reverts a commit.
 
@@ -122,7 +123,7 @@ Reverts a commit.
 git revert <commit Identifier>
 ```
 
-#### git reset
+- #### git reset
 
 Resets the current branch to a previous commit.
 
@@ -132,11 +133,11 @@ git reset --mixed <commit Identifier> # Mixed reset
 git reset --hard <commit Identifier> # Hard reset
 ```
 
-#### git stash
+- #### git stash
 
 Stashes the current changes.
 
-#### git tag
+- #### git tag
 
 Tags a commit.
 
@@ -147,7 +148,7 @@ git show <tag-name> # Shows the commit associated with a tag
 git tag -d <tag-name> # Deletes a tag
 ```
 
-#### git reflog
+- #### git reflog
 
 Shows the commit history.
 
@@ -155,7 +156,7 @@ Shows the commit history.
 
 ### Remote Basic Commands
 
-#### create ssh key
+- #### create ssh key
 
 ```bash
 ssh-keygen -t rsa -b 4096 -C "your@email.com" # Creates an rsa key
@@ -165,7 +166,7 @@ ssh-add ~/.ssh/id_rsa # Adds the key to the ssh-agent
 ssh -T git@github.com # Tests the connection
 ```
 
-#### git remote
+- #### git remote
 
 Manages remote repositories.
 
@@ -173,7 +174,7 @@ Manages remote repositories.
 git remote add origin <url>
 ```
 
-#### git clone
+- #### git clone
 
 Clones a repository.
 
@@ -181,7 +182,7 @@ Clones a repository.
 git clone <url>
 ```
 
-#### git push
+- #### git push
 
 Pushes the commits to the remote repository.
 
@@ -189,7 +190,7 @@ Pushes the commits to the remote repository.
 git push origin <branch>
 ```
 
-#### git pull
+- #### git pull
 
 Pulls the commits from the remote repository.
 
@@ -197,7 +198,7 @@ Pulls the commits from the remote repository.
 git pull origin <branch>
 ```
 
-##### git fetch
+- ##### git fetch
 
 Fetches the commits from the remote repository.
 
@@ -207,6 +208,6 @@ git fetch origin <branch>
 
 ### Working with Branches
 
-#### git diff
+- #### git diff
 
 Shows the differences between the current state and the last commit.
