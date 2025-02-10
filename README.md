@@ -5,10 +5,11 @@ Local Repositories
 -----------
 
 Basic Commands
-...........
+-----------
 
 git --help
 Shows the help menu.
+
 ```bash
 git --help
 ```
