@@ -43,6 +43,8 @@ Adds a file to the staging area.
 
 ```bash
 git add <file>
+git add * # Adds all files
+git add . # Adds all files includind hidden files as .gitignore
 ```
 
 - #### git rm
