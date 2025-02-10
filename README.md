@@ -4,7 +4,7 @@
 
 ### Basic Commands
 
-#### git --help
+#### -git --help
 
 Shows the help menu.
 
@@ -12,7 +12,7 @@ Shows the help menu.
 git --help
 ```
 
-#### git init
+#### -git init
 
 Initializes a git repository.
 
