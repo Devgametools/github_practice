@@ -4,7 +4,7 @@
 
 ### Basic Commands
 
-#### -git --help
+#### * git --help
 
 Shows the help menu.
 
